@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
@@ -19,17 +19,18 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-
+    fill: #565e6a;
     background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
     box-shadow: 5px 5px 13px #b4b4b9, -5px -5px 13px #ffffff;
-    border-radius: 8px;
-  }
   
-  svg {
-    fill: #565E6A;
+    border-radius: 8px;
+    border-width: 1px;
+    transition: all 0.2s linear;
 
-    &:hover{
-      fill: #FFB36A;
+    &:hover {
+      background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
+      box-shadow: 5px 5px 13px #ffffff, -5px -5px 13px #b4b4b9;
+      fill: #ffb36a;
     }
   }
-`
+`;

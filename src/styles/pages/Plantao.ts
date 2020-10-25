@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100vw;
@@ -20,11 +20,96 @@ export const Container = styled.div`
 
     color: #565e6a;
   }
-  hr{
-    border: 1px solid #565E6A;
-    margin-top: 13px;
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
+
+  section {
+    margin-top: 28px;
+    margin-left: 28px;
+    border-radius: 20px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
+    box-shadow: 5px 5px 13px #b4b4b9, -5px -5px 13px #ffffff;
+    article {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 380px;
+        height: 230px;
+        border-radius: 20px 20px 0 0;
+      }
+    }
   }
-`
+`;
+
+export const Detalhes = styled.div`
+  padding: 13px;
+  text-align: center;
+  h3{
+    font-size: 21px;
+    color: #565E6A;
+    margin-bottom: 16px;
+  }
+  
+  p{
+    color: #A6AAB2;
+    text-align: left;
+    line-height: 25px;
+  }
+  svg{
+    fill: #565E6A;
+    margin-right: 5px;
+  }
+`;
+
+export const Blocos = styled.div`
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  span{
+    color: #565E6A;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  ul{
+    display: flex;
+    margin-top: 21px;
+    list-style: none;
+    justify-content: space-between;
+  }
+  ul li{
+    color:#A6AAB2;
+  }
+  strong{
+    color: #565E6A;
+    display: block;
+  }
+
+  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 48px;
+    border-radius: 21px;
+    border-width: 0;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
+    box-shadow: 5px 5px 13px #b4b4b9, -5px -5px 13px #ffffff;
+    color: #565E6A;
+    transition: all 0.4s linear;
+
+    &:hover{
+      background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
+      box-shadow: 5px 5px 13px #ffffff, -5px -5px 13px #b4b4b9;
+
+      color: #ffb36a;
+      fill: #ffb36a;
+    }
+  }
+`;
