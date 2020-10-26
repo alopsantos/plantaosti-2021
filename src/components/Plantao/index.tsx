@@ -1,5 +1,5 @@
 import { Container, Detalhes, Blocos } from "../../styles/pages/Plantao";
-import { IoIosPin, IoMdCall, IoMdTime } from "react-icons/io";
+import { IoIosPin, IoMdCall, IoMdTime, IoMdCalendar } from "react-icons/io";
 
 export default function Plantao() {
   return (
@@ -29,7 +29,7 @@ export default function Plantao() {
                 <li>
                   <strong>Inicio</strong>25/11/1988
                 </li>
-                <li>-------------</li>
+                <li><IoMdCalendar size="21" /></li>
                 <li>
                   <strong>Fim</strong>29/11/2020
                 </li>

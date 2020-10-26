@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 440px;;
   height: 100vh;
   padding-top: 30px;
 
@@ -79,6 +79,8 @@ export const Blocos = styled.div`
     margin-top: 21px;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
+  
   }
   ul li{
     color:#A6AAB2;
