@@ -1,27 +1,35 @@
-import { Container } from '../../styles/pages/Menu'
+import Link from 'next/link'
 
-import Farmacia from '../../assets/images/farmacias.svg';
+import Farmacia from '../../assets/images/farmacias.svg'
 import Plantao from '../../assets/images/plantao.svg'
 import Plantoes from '../../assets/images/plantoes.svg'
 
-export default function Menu() {
+import { Container } from '../../styles/components/Menu'
+
+export default function CMenu() {
   return (
     <Container>
       <ul>
         <li>
-          <a href="#">
-            <Plantao />
-          </a>
+          <Link href={`/plantao`}>
+            <a>
+              <Plantao />
+            </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
-            <Plantoes />
-          </a>
+          <Link href={`/plantoes`}>
+            <a>
+              <Plantoes />
+            </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
-            <Farmacia />
-          </a>
+          <Link href={`/farmacias`}>
+            <a>
+              <Farmacia />
+            </a>
+          </Link>
         </li>
       </ul>
     </Container>

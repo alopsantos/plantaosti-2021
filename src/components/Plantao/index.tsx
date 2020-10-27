@@ -1,7 +1,7 @@
-import { Container, Detalhes, Blocos } from "../../styles/pages/Plantao";
+import { Container, Detalhes, Blocos } from "../../styles/components/Plantao";
 import { IoIosPin, IoMdCall, IoMdTime, IoMdCalendar } from "react-icons/io";
 
-export default function Plantao() {
+export default function CPlantao() {
   return (
     <Container>
       <h2>Plantão</h2>
