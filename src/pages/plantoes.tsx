@@ -1,10 +1,16 @@
-import CMenu from '../components/Menu'
-import CPlantoes from '../components/Plantoes'
-import { Container } from '../styles/pages/Plantoes.pg'
+import CMenu from "../components/Menu";
+import CPlantoes from "../components/Itens-plantoes";
+import SEO from "../components/SEO";
+import { Container } from "../styles/pages/Item-lista.pg";
 
 export default function PGPlantoes() {
   return (
     <>
+      <SEO
+        title="Plantões | Plantão STI"
+        shouldExcludeTitleSuffix
+        image="boost.png"
+      />
       <CMenu />
       <Container>
         <h2>Plantões</h2>
@@ -67,5 +73,5 @@ export default function PGPlantoes() {
         />
       </Container>
     </>
-  )
+  );
 }

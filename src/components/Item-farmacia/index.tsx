@@ -1,4 +1,4 @@
-import { Container, Detalhes, Blocos } from '../../styles/components/Plantao'
+import { Container, Detalhes, Blocos } from '../../styles/components/Farmacia-display'
 import { IoIosPin, IoMdCall, IoMdTime} from 'react-icons/io'
 
 export default function CFarmacia() {

@@ -1,6 +1,6 @@
-import CFarmacia from '../components/Farmacia'
-import CMenu from '../components/Menu'
-import SEO from '../components/SEO'
+import SEO from "../components/SEO";
+import CMenu from "../components/Menu";
+import CFarmacia from "../components/Item-farmacia";
 
 export default function Farmacia() {
   return (
@@ -13,5 +13,5 @@ export default function Farmacia() {
       <CMenu />
       <CFarmacia />
     </>
-  )
+  );
 }

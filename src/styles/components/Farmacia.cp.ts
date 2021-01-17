@@ -4,9 +4,11 @@ export const Container = styled.div`
   width: 440px;
   height: 100vh;
   padding-top: 30px;
-
+  margin-top: 100px;
   background: linear-gradient(111.39deg, #f5f5f9 0%, #f5f5f9 100%);
-
+  position: absolute;
+  z-index: 1;
+  
   h2 {
     font-family: Roboto;
     font-style: normal;
@@ -36,18 +38,18 @@ export const Container = styled.div`
 
       img {
         width: 380px;
-        height: 230px;
+        height: 150px;
         border-radius: 20px 20px 0 0;
       }
     }
   }
+
 `;
 
 export const Detalhes = styled.div`
   padding: 13px;
-  text-align: center;
   h3{
-    font-size: 21px;
+    font-size: 16px;
     color: #565E6A;
     margin-bottom: 16px;
   }

@@ -1,6 +1,6 @@
-import CMenu from '../components/Menu'
-import Plantao from '../components/Plantao'
-import SEO from '../components/SEO'
+import CMenu from "../components/Menu";
+import Plantao from "../components/Item-plantao";
+import SEO from "../components/SEO";
 
 export default function PGPlantao() {
   return (
@@ -9,5 +9,5 @@ export default function PGPlantao() {
       <CMenu />
       <Plantao />
     </>
-  )
+  );
 }

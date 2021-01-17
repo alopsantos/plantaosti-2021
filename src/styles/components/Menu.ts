@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 440px;
+  max-width:440px;
   height: 100px;
   background: linear-gradient(111.39deg, #f5f5f9 0%, #f5f5f9 100%);
   position: fixed;
@@ -23,6 +24,7 @@ export const Container = styled.div`
     fill: #565e6a;
     background: linear-gradient(135deg, #e7e7ed 0%, #f5f5f9 100%);
     box-shadow: 5px 5px 13px #b4b4b9, -5px -5px 13px #ffffff;
+    border: 1px solid #ffffff;
 
     border-radius: 8px;
     border-width: 1px;

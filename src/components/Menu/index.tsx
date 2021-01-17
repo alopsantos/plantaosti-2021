@@ -1,10 +1,10 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-import Farmacia from '../../assets/images/farmacias.svg'
-import Plantao from '../../assets/images/plantao.svg'
-import Plantoes from '../../assets/images/plantoes.svg'
+import Farmacia from "../../assets/images/farmacias.svg";
+import Plantao from "../../assets/images/plantao.svg";
+import Plantoes from "../../assets/images/plantoes.svg";
 
-import { Container } from '../../styles/components/Menu'
+import { Container } from "../../styles/components/Menu";
 
 export default function CMenu() {
   return (
@@ -33,5 +33,5 @@ export default function CMenu() {
         </li>
       </ul>
     </Container>
-  )
+  );
 }
