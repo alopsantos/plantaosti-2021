@@ -32,6 +32,7 @@ export default function PGFarmacias() {
           bairro="Parque das oliveiras"
           plantao="25/11/2000 a 25/11/2025"
         />
+        
       </Container>
     </>
   );

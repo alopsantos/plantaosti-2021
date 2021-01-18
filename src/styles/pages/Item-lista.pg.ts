@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 440px;
+  height: 100vh;
   padding-top: 30px;
   background: linear-gradient(111.39deg, #f5f5f9 0%, #f5f5f9 100%);
   margin-top: 100px;

@@ -29,48 +29,6 @@ export default function PGPlantoes() {
           bairro="Centro"
           plantao="25/11/2000 a 25/11/2025"
         />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
-        <CPlantoes
-          sigla="FG"
-          name="Farmagrama"
-          endereco="Rua Mario goncalves squerdo, 112"
-          bairro="Parque das oliveiras"
-          plantao="25/11/2000 a 25/11/2025"
-        />
       </Container>
     </>
   );
